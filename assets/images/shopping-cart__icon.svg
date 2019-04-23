@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="36" height="36" viewBox="0 0 500 500" enable-background="new 0 0 500 500" preserveAspectRatio="xMidYMid meet" xml:space="preserve">
+	<rect fill="none" width="500" height="500"/>
+	<g>
+		<circle class="cart trn" fill="#FFFFFF" cx="175" cy="375" r="25"/>
+	</g>
+	<g>
+		<circle class="cart trn" fill="#FFFFFF" cx="325" cy="375" r="25"/>
+	</g>
+	<path class="cart trn" fill="#FFFFFF" d="M397.038,129.42c-2.375-2.804-5.863-4.42-9.538-4.42H127.399l-2.589-14.672 C123.756,104.354,118.565,100,112.5,100H75v25h27.013l35.678,202.172c1.054,5.974,6.244,10.328,12.31,10.328h200v-25H160.487 l-2.206-12.5H362.5c6.11,0,11.325-4.418,12.33-10.445l25-150C400.434,135.931,399.413,132.224,397.038,129.42z M217.5,225h65v50h-65 V225z M192.5,275h-38.565l-8.509-50H192.5V275z M217.5,200v-50h65v50H217.5z M192.5,150v50h-51.328l-8.509-50H192.5z M307.5,275v-50 h52.744l-8.333,50H307.5z M364.411,200H307.5v-50h65.244L364.411,200z"/>
+</svg>
