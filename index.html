@@ -10,10 +10,10 @@
 	<meta name="format-detection" content="date=no" />
 	<meta name="format-detection" content="address=no" />
 	<meta name="format-detection" content="email=no" />
-	
-	<title>OFV</title>
-	
-	<link rel="stylesheet" type="text/css" href="assets/css/style.min.css" />
+
+	<title>EMBERG</title>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 </head>
 <body>
 
@@ -29,7 +29,7 @@
 			<img src="assets/images/shopping-cart__icon.svg" alt="Košík" />
 		</a>
 	</div>
-	
+
 	<div class="menu hidden trn" data-toggle="true">
 		<ul class="menu__list">
 			<li class="menu__item"><a href="#" class="menu__anchor medium trn">E-learning</a></li>
@@ -37,7 +37,7 @@
 			<li class="menu__item"><a href="#" class="menu__anchor medium trn">Kontakt</a></li>
 		</ul>
 	</div>
-	
+
 	<div class="cart hidden trn" data-toggle="true">
 		<div class="table">
 			<div class="table__row">
@@ -49,47 +49,20 @@
 				</div>
 			</div>
 		</div>
-		<div class="cartproduct__wrap">
-			<div class="cartproduct__area">
-				<div class="cartproduct trn">
-					<span class="cartproduct__heading medium">Kurz poistenia alebo zaistenia</span>
-					<span class="cartproduct__level cartproduct__level--yellow small bold">Stredný stupeň</span>
-					<a href="#" class="cartproduct__remove"></a>
-					<span class="cartproduct__price large bold">11,99 €</span>
-				</div>
-				<div class="cartproduct trn">
-					<span class="cartproduct__heading medium">Kurz poistenia alebo zaistenia</span>
-					<span class="cartproduct__level cartproduct__level--yellow small bold">Stredný stupeň</span>
-					<a href="#" class="cartproduct__remove"></a>
-					<span class="cartproduct__price large bold">11,99 €</span>
-				</div>
-				<div class="cartproduct trn">
-					<span class="cartproduct__heading medium">Kurz poistenia alebo zaistenia</span>
-					<span class="cartproduct__level cartproduct__level--yellow small bold">Stredný stupeň</span>
-					<a href="#" class="cartproduct__remove"></a>
-					<span class="cartproduct__price large bold">11,99 €</span>
-				</div>
-				<div class="cartproduct trn">
-					<span class="cartproduct__heading medium">Kurz poistenia alebo zaistenia</span>
-					<span class="cartproduct__level cartproduct__level--yellow small bold">Stredný stupeň</span>
-					<a href="#" class="cartproduct__remove"></a>
-					<span class="cartproduct__price large bold">11,99 €</span>
-				</div>
-			</div>
-		</div>
+		<div class="cartproduct__wrap"></div>
 		<div class="table">
 			<div class="table__row">
 				<div class="table__cell">
 					<span class="medium">Spolu</span>
 				</div>
 				<div class="table__cell">
-					<span class="large bold">11,99 €</span>
+					<span class="cart__total large bold">-</span>
 				</div>
 			</div>
 		</div>
 		<a href="form.html" class="btn btn--finish trn">Dokončiť nákup</a>
 	</div>
-	
+
 	<div class="overlay hidden trn"></div>
 
 	<div class="hero">
@@ -98,13 +71,13 @@
 			<p class="small">Lorem Ipsum is simply dummy text of the</p>
 		</div>
 	</div>
-	
+
 	<div class="shop">
 		<div class="container clearfix">
 			<a href="#" class="tab tab--green large bold trn" data-target="green">Základný stupeň</a>
 			<div class="product__collapse" id="green" style="height: 0px;" data-collapsed="true">
 				<div class="product__area">
-					<div class="product">
+					<div class="product" data-cartheading="Kurz poistenie alebo zaistenia" data-cartlevel="Základný stupeň" data-cartprice="11,99" data-color="green">
 						<h3 class="product__heading product__heading--poistenie medium">Poistenie alebo zaistenie</h3>
 						<div class="product__info">
 							<div class="table">
@@ -125,10 +98,10 @@
 									</div>
 								</div>
 							</div>
-							<a href="#" class="btn btn--add trn">Pridať do košíka</a>
+							<a href="#" class="btn btn--add js__btn--add trn">Pridať do košíka</a>
 						</div>
 					</div>
-					<div class="product">
+					<div class="product" data-cartheading="Kurz príjmania vkladov" data-cartlevel="Základný stupeň" data-cartprice="11,99" data-color="green">
 						<h3 class="product__heading product__heading--vklady medium">Príjmanie vkladov</h3>
 						<div class="product__info">
 							<div class="table">
@@ -149,10 +122,10 @@
 									</div>
 								</div>
 							</div>
-							<a href="#" class="btn btn--add trn">Pridať do košíka</a>
+							<a href="#" class="btn btn--add js__btn--add trn">Pridať do košíka</a>
 						</div>
 					</div>
-					<div class="product">
+					<div class="product" data-cartheading="Kurz poskytovania úverov" data-cartlevel="Základný stupeň" data-cartprice="11,99" data-color="green">
 						<h3 class="product__heading product__heading--uvery medium">Poskytovanie úverov</h3>
 						<div class="product__info">
 							<div class="table">
@@ -173,10 +146,10 @@
 									</div>
 								</div>
 							</div>
-							<a href="#" class="btn btn--add trn">Pridať do košíka</a>
+							<a href="#" class="btn btn--add js__btn--add trn">Pridať do košíka</a>
 						</div>
 					</div>
-					<div class="product">
+					<div class="product" data-cartheading="Kurz kapitálového trhu" data-cartlevel="Základný stupeň" data-cartprice="11,99" data-color="green">
 						<h3 class="product__heading product__heading--trh medium">Kapitálový trh</h3>
 						<div class="product__info">
 							<div class="table">
@@ -197,10 +170,10 @@
 									</div>
 								</div>
 							</div>
-							<a href="#" class="btn btn--add trn">Pridať do košíka</a>
+							<a href="#" class="btn btn--add js__btn--add trn">Pridať do košíka</a>
 						</div>
 					</div>
-					<div class="product">
+					<div class="product" data-cartheading="Kurz starobného dôchodkového sporenia" data-cartlevel="Základný stupeň" data-cartprice="11,99" data-color="green">
 						<h3 class="product__heading product__heading--starobne medium">Starobné dôchodkové sporenie</h3>
 						<div class="product__info">
 							<div class="table">
@@ -221,10 +194,10 @@
 									</div>
 								</div>
 							</div>
-							<a href="#" class="btn btn--add trn">Pridať do košíka</a>
+							<a href="#" class="btn btn--add js__btn--add trn">Pridať do košíka</a>
 						</div>
 					</div>
-					<div class="product">
+					<div class="product" data-cartheading="Kurz doplnkového dôchodkového sporenia" data-cartlevel="Základný stupeň" data-cartprice="11,99" data-color="green">
 						<h3 class="product__heading product__heading--doplnkove medium">Doplnkové dôchodkové sporenie</h3>
 						<div class="product__info">
 							<div class="table">
@@ -245,7 +218,7 @@
 									</div>
 								</div>
 							</div>
-							<a href="#" class="btn btn--add trn">Pridať do košíka</a>
+							<a href="#" class="btn btn--add js__btn--add trn">Pridať do košíka</a>
 						</div>
 					</div>
 				</div>
@@ -253,7 +226,7 @@
 			<a href="#" class="tab tab--yellow large bold trn" data-target="yellow">Stredný stupeň</a>
 			<div class="product__collapse" id="yellow" style="height: 0px;" data-collapsed="true">
 				<div class="product__area">
-					<div class="product">
+					<div class="product" data-cartheading="Kurz poistenie alebo zaistenia" data-cartlevel="Stredný stupeň" data-cartprice="12,99" data-color="yellow">
 						<h3 class="product__heading product__heading--poistenie medium">Poistenie alebo zaistenie</h3>
 						<div class="product__info">
 							<div class="table">
@@ -274,10 +247,10 @@
 									</div>
 								</div>
 							</div>
-							<a href="#" class="btn btn--add trn">Pridať do košíka</a>
+							<a href="#" class="btn btn--add js__btn--add trn">Pridať do košíka</a>
 						</div>
 					</div>
-					<div class="product">
+					<div class="product" data-cartheading="Kurz príjmania vkladov" data-cartlevel="Stredný stupeň" data-cartprice="12,99" data-color="yellow">
 						<h3 class="product__heading product__heading--vklady medium">Príjmanie vkladov</h3>
 						<div class="product__info">
 							<div class="table">
@@ -298,10 +271,10 @@
 									</div>
 								</div>
 							</div>
-							<a href="#" class="btn btn--add trn">Pridať do košíka</a>
+							<a href="#" class="btn btn--add js__btn--add trn">Pridať do košíka</a>
 						</div>
 					</div>
-					<div class="product">
+					<div class="product" data-cartheading="Kurz poskytovania úverov" data-cartlevel="Stredný stupeň" data-cartprice="12,99" data-color="yellow">
 						<h3 class="product__heading product__heading--uvery medium">Poskytovanie úverov</h3>
 						<div class="product__info">
 							<div class="table">
@@ -322,10 +295,10 @@
 									</div>
 								</div>
 							</div>
-							<a href="#" class="btn btn--add trn">Pridať do košíka</a>
+							<a href="#" class="btn btn--add js__btn--add trn">Pridať do košíka</a>
 						</div>
 					</div>
-					<div class="product">
+					<div class="product" data-cartheading="Kurz kapitálového trhu" data-cartlevel="Stredný stupeň" data-cartprice="12,99" data-color="yellow">
 						<h3 class="product__heading product__heading--trh medium">Kapitálový trh</h3>
 						<div class="product__info">
 							<div class="table">
@@ -346,10 +319,10 @@
 									</div>
 								</div>
 							</div>
-							<a href="#" class="btn btn--add trn">Pridať do košíka</a>
+							<a href="#" class="btn btn--add js__btn--add trn">Pridať do košíka</a>
 						</div>
 					</div>
-					<div class="product">
+					<div class="product" data-cartheading="Kurz starobného dôchodkového sporenia" data-cartlevel="Stredný stupeň" data-cartprice="12,99" data-color="yellow">
 						<h3 class="product__heading product__heading--starobne medium">Starobné dôchodkové sporenie</h3>
 						<div class="product__info">
 							<div class="table">
@@ -370,10 +343,10 @@
 									</div>
 								</div>
 							</div>
-							<a href="#" class="btn btn--add trn">Pridať do košíka</a>
+							<a href="#" class="btn btn--add js__btn--add trn">Pridať do košíka</a>
 						</div>
 					</div>
-					<div class="product">
+					<div class="product" data-cartheading="Kurz doplnkového dôchodkového sporenia" data-cartlevel="Stredný stupeň" data-cartprice="12,99" data-color="yellow">
 						<h3 class="product__heading product__heading--doplnkove medium">Doplnkové dôchodkové sporenie</h3>
 						<div class="product__info">
 							<div class="table">
@@ -394,7 +367,7 @@
 									</div>
 								</div>
 							</div>
-							<a href="#" class="btn btn--add trn">Pridať do košíka</a>
+							<a href="#" class="btn btn--add js__btn--add trn">Pridať do košíka</a>
 						</div>
 					</div>
 				</div>
@@ -402,7 +375,7 @@
 			<a href="#" class="tab tab--orange large bold trn" data-target="orange">Vyšší stupeň</a>
 			<div class="product__collapse" id="orange" style="height: 0px;" data-collapsed="true">
 				<div class="product__area">
-					<div class="product">
+					<div class="product" data-cartheading="Kurz poistenia alebo zaistenia" data-cartlevel="Vyšší stupeň" data-cartprice="13,99" data-color="orange">
 						<h3 class="product__heading product__heading--poistenie medium">Poistenie alebo zaistenie</h3>
 						<div class="product__info">
 							<div class="table">
@@ -423,10 +396,10 @@
 									</div>
 								</div>
 							</div>
-							<a href="#" class="btn btn--add trn">Pridať do košíka</a>
+							<a href="#" class="btn btn--add js__btn--add trn">Pridať do košíka</a>
 						</div>
 					</div>
-					<div class="product">
+					<div class="product" data-cartheading="Kurz príjmania vkladov" data-cartlevel="Vyšší stupeň" data-cartprice="13,99" data-color="orange">
 						<h3 class="product__heading product__heading--vklady medium">Príjmanie vkladov</h3>
 						<div class="product__info">
 							<div class="table">
@@ -447,10 +420,10 @@
 									</div>
 								</div>
 							</div>
-							<a href="#" class="btn btn--add trn">Pridať do košíka</a>
+							<a href="#" class="btn btn--add js__btn--add trn">Pridať do košíka</a>
 						</div>
 					</div>
-					<div class="product">
+					<div class="product" data-cartheading="Kurz poskytovania úverov" data-cartlevel="Vyšší stupeň" data-cartprice="13,99" data-color="orange">
 						<h3 class="product__heading product__heading--uvery medium">Poskytovanie úverov</h3>
 						<div class="product__info">
 							<div class="table">
@@ -471,10 +444,10 @@
 									</div>
 								</div>
 							</div>
-							<a href="#" class="btn btn--add trn">Pridať do košíka</a>
+							<a href="#" class="btn btn--add js__btn--add trn">Pridať do košíka</a>
 						</div>
 					</div>
-					<div class="product">
+					<div class="product" data-cartheading="Kurz kapitálového trhu" data-cartlevel="Vyšší stupeň" data-cartprice="13,99" data-color="orange">
 						<h3 class="product__heading product__heading--trh medium">Kapitálový trh</h3>
 						<div class="product__info">
 							<div class="table">
@@ -495,10 +468,10 @@
 									</div>
 								</div>
 							</div>
-							<a href="#" class="btn btn--add trn">Pridať do košíka</a>
+							<a href="#" class="btn btn--add js__btn--add trn">Pridať do košíka</a>
 						</div>
 					</div>
-					<div class="product">
+					<div class="product" data-cartheading="Kurz starobného dôchodkového sporenia" data-cartlevel="Vyšší stupeň" data-cartprice="13,99" data-color="orange">
 						<h3 class="product__heading product__heading--starobne medium">Starobné dôchodkové sporenie</h3>
 						<div class="product__info">
 							<div class="table">
@@ -519,10 +492,10 @@
 									</div>
 								</div>
 							</div>
-							<a href="#" class="btn btn--add trn">Pridať do košíka</a>
+							<a href="#" class="btn btn--add js__btn--add trn">Pridať do košíka</a>
 						</div>
 					</div>
-					<div class="product">
+					<div class="product" data-cartheading="Kurz doplnkového dôchodkového sporenia" data-cartlevel="Vyšší stupeň" data-cartprice="13,99" data-color="orange">
 						<h3 class="product__heading product__heading--doplnkove medium">Doplnkové dôchodkové sporenie</h3>
 						<div class="product__info">
 							<div class="table">
@@ -543,7 +516,7 @@
 									</div>
 								</div>
 							</div>
-							<a href="#" class="btn btn--add trn">Pridať do košíka</a>
+							<a href="#" class="btn btn--add js__btn--add trn">Pridať do košíka</a>
 						</div>
 					</div>
 				</div>
@@ -551,7 +524,7 @@
 			<a href="#" class="tab tab--red large bold trn" data-target="red">Najvyšší stupeň</a>
 			<div class="product__collapse" id="red" style="height: 0px;" data-collapsed="true">
 				<div class="product__area">
-					<div class="product">
+					<div class="product" data-cartheading="Kurz poistenia alebo zaistenia" data-cartlevel="Najvyšší stupeň" data-cartprice="14,99" data-color="red">
 						<h3 class="product__heading product__heading--poistenie medium">Poistenie alebo zaistenie</h3>
 						<div class="product__info">
 							<div class="table">
@@ -572,10 +545,10 @@
 									</div>
 								</div>
 							</div>
-							<a href="#" class="btn btn--add trn">Pridať do košíka</a>
+							<a href="#" class="btn btn--add js__btn--add trn">Pridať do košíka</a>
 						</div>
 					</div>
-					<div class="product">
+					<div class="product" data-cartheading="Kurz príjmanie vkladov" data-cartlevel="Najvyšší stupeň" data-cartprice="14,99" data-color="red">
 						<h3 class="product__heading product__heading--vklady medium">Príjmanie vkladov</h3>
 						<div class="product__info">
 							<div class="table">
@@ -596,10 +569,10 @@
 									</div>
 								</div>
 							</div>
-							<a href="#" class="btn btn--add trn">Pridať do košíka</a>
+							<a href="#" class="btn btn--add js__btn--add trn">Pridať do košíka</a>
 						</div>
 					</div>
-					<div class="product">
+					<div class="product" data-cartheading="Kurz poskytovania úverov" data-cartlevel="Najvyšší stupeň" data-cartprice="14,99" data-color="red">
 						<h3 class="product__heading product__heading--uvery medium">Poskytovanie úverov</h3>
 						<div class="product__info">
 							<div class="table">
@@ -620,10 +593,10 @@
 									</div>
 								</div>
 							</div>
-							<a href="#" class="btn btn--add trn">Pridať do košíka</a>
+							<a href="#" class="btn btn--add js__btn--add trn">Pridať do košíka</a>
 						</div>
 					</div>
-					<div class="product">
+					<div class="product" data-cartheading="Kurz kapitálového trhu" data-cartlevel="Najvyšší stupeň" data-cartprice="14,99" data-color="red">
 						<h3 class="product__heading product__heading--trh medium">Kapitálový trh</h3>
 						<div class="product__info">
 							<div class="table">
@@ -644,10 +617,10 @@
 									</div>
 								</div>
 							</div>
-							<a href="#" class="btn btn--add trn">Pridať do košíka</a>
+							<a href="#" class="btn btn--add js__btn--add trn">Pridať do košíka</a>
 						</div>
 					</div>
-					<div class="product">
+					<div class="product" data-cartheading="Kurz starobného dôchodkového sporenia" data-cartlevel="Najvyšší stupeň" data-cartprice="14,99" data-color="red">
 						<h3 class="product__heading product__heading--starobne medium">Starobné dôchodkové sporenie</h3>
 						<div class="product__info">
 							<div class="table">
@@ -668,10 +641,10 @@
 									</div>
 								</div>
 							</div>
-							<a href="#" class="btn btn--add trn">Pridať do košíka</a>
+							<a href="#" class="btn btn--add js__btn--add trn">Pridať do košíka</a>
 						</div>
 					</div>
-					<div class="product">
+					<div class="product" data-cartheading="Kurz doplnkového dôchodkového sporenia" data-cartlevel="Najvyšší stupeň" data-cartprice="14,99" data-color="red">
 						<h3 class="product__heading product__heading--doplnkove medium">Doplnkové dôchodkové sporenie</h3>
 						<div class="product__info">
 							<div class="table">
@@ -692,14 +665,14 @@
 									</div>
 								</div>
 							</div>
-							<a href="#" class="btn btn--add trn">Pridať do košíka</a>
+							<a href="#" class="btn btn--add js__btn--add trn">Pridať do košíka</a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	
+
 	<div class="info">
 		<div class="container">
 			<h1><strong class="bold">Informácie</strong></h1>
@@ -707,7 +680,7 @@
 			<p class="small">It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 		</div>
 	</div>
-	
+
 	<div class="footer">
 		<div class="container">
 			<div class="table">
@@ -722,7 +695,7 @@
 			</div>
 		</div>
 	</div>
-	
-	<script src="assets/js/script.min.js"></script>
+
+	<script src="assets/js/script.js"></script>
 </body>
 </html>
