@@ -17,8 +17,6 @@
 </head>
 <body>
 
-	<div class="overlay hidden trn"></div>
-
 	<div class="header trn">
 		<a href="#" class="header__icon header__icon--menu trn">
 			<span class="trn">Menu</span>
@@ -35,6 +33,8 @@
 			<li class="menu__item"><a href="#" class="menu__anchor medium trn">Kontakt</a></li>
 		</ul>
 	</div>
+	
+	<div class="overlay hidden trn"></div>
 
 	<div class="hero">
 		<div class="container">
@@ -101,8 +101,21 @@
 			<input class="form__control" type="text" placeholder="Napíšte štát, v ktorom bývate" />
 		</div>
 		<div class="form__block">
-			<label class="form__confirmation small">Fakturačná adresa je rovnaká ako trvalé bydlisko<input type="checkbox" checked /><span class="checkmark trn"></span></label>
+			<span class="form__heading large bold">Kontaktné údaje</span>
 		</div>
+		<div class="form__block">
+			<label class="form__label medium bold">Telefónne číslo</label>
+			<input class="form__control" type="number" placeholder="Napíšte vaše telefónne číslo" />
+		</div>
+		<div class="form__block">
+			<label class="form__label medium bold">Emailová adresa</label>
+			<input class="form__control" type="text" placeholder="Napíšte vašu emailovú adresu" />
+		</div>
+		<div class="form__block">
+			<label class="form__confirmation small">Fakturačná adresa je rovnaká ako trvalé bydlisko<input type="checkbox" /><span class="checkmark trn"></span></label>
+		</div>
+		
+		
 		<div class="form__block">
 			<span class="form__heading large bold">Fakturačné údaje</span>
 		</div>
@@ -138,17 +151,7 @@
 			<label class="form__label medium bold">Štát</label>
 			<input class="form__control" type="text" placeholder="Napíšte štát" />
 		</div>
-		<div class="form__block">
-			<span class="form__heading large bold">Kontaktné údaje</span>
-		</div>
-		<div class="form__block">
-			<label class="form__label medium bold">Telefónne číslo</label>
-			<input class="form__control" type="number" placeholder="Napíšte vaše telefónne číslo" />
-		</div>
-		<div class="form__block">
-			<label class="form__label medium bold">Emailová adresa</label>
-			<input class="form__control" type="text" placeholder="Napíšte vašu emailovú adresu" />
-		</div>
+		
 		<div class="form__block">
 			<label class="form__confirmation small">Súhlasím so <a href="#" class="popup__toggle popup__toggle--suhlas">spracovaním osobných údajov</a> uvedených vo formulári.<input type="checkbox" /><span class="checkmark trn"></span></label>
 		</div>
